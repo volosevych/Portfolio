@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@200&display=swap" rel="stylesheet">
+
+  <!-- css file -->
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+  <ul class="nav" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a class="nav-link active nav-index" href="index.html" aria-controls="home"
+        aria-selected="true">Home</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="profile-tab" data-toggle="tab" href="portfolio.html" role="tab" aria-controls="profile"
+        aria-selected="false">Profile</a>
+    </li>
+  </ul>
+
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"></div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
+  </div>
+  <div class="jumbotron jumbotron-fluid" style="background-color: #2ec4b6;">
+    <div class="container">
+      <h1 class="text-center text-white">Hey, I'm Anastasia ;)</h1>
+      <p class="lead text-center intro-text" style="color: #011627;">I'm a front end / back end Developer living in West
+        Jordan, UT.</p>
+    </div>
+    <hr class="my-5 mb-0 mb-0" style="width: 50%; background-color: #fff;">
+    <div class="container d-flex justify-content-center">
+    </div>
+    <!-- links to my social -->
+    <div class="social-icons d-flex justify-content-center" style="cursor: pointer;">
+      <i class="fab fa-instagram" style="color: #fff; font-size: 30px; margin-right: 10px;"></i>
+      <i class="fab fa-twitter-square" style="color: #fff; font-size: 30px; margin-right: 10px;"></i>
+      <i class="fab fa-google" style="color: #fff; font-size: 28px;"></i>
+    </div>
+  </div>
+
+  <div class="card mb-3 ml-4 text-center" style="border: none;">
+    <div class="row">
+      <!-- img -->
+      <div class="col-md-4">
+        <img src="" class="card-img" alt="">
+      </div>
+      <!-- descr -->
+      <div class="col-md-4">
+        <div class="card-body">
+          <h2>About me:</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore sapiente fugiat voluptatem perferendis aperiam assumenda asperiores pariatur incidunt adipisci obcaecati, ab nemo nam culpa omnis unde totam fuga nulla quod.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/script.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/db310d7988.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
