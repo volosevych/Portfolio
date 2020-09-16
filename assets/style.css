@@ -1,0 +1,36 @@
+body {
+    overflow-x: hidden;
+}
+
+.nav-index {
+    background-color: #2EC4B6;
+    color: #fff;
+}
+
+.nav-portfolio {
+    background-color: #EB875F;
+    color: #fff;
+}
+
+.nav-contact {
+    background-color: #00a896;
+    color: #fff;
+}
+
+.intro-text, h1 {
+    font-family: 'Grandstander', cursive;
+}
+
+.about-me-btn {
+    border: 1px solid #fff;
+    background-color: #283d3b;
+    color: #fff;
+
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.about-me-btn:hover {
+    background-color: #197278;
+    color: #ffffff;
+}
