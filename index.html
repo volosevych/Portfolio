@@ -26,7 +26,39 @@
 </head>
 
 <body>
-  <div class="sticky-top position-sticky d-flex justify-content-between" style="background-color: black;">
+  <header>
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark scrolling-navbar bg-dark" >
+      <!-- <a class="navbar-brand" href="#"><strong>AV</strong></a> -->
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Sticky-nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Sticky-nav">
+        <ul class="navbar-nav d-flex justify-content-end">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="text-center py-5" id="scroll"></main>
+
+  <!-- ----------------------- old version -------------------- -->
+  <!-- <div class="sticky-top position-sticky d-flex justify-content-between" style="background-color: black;">
     <div class="logo">
       <div class="logo-text text-white">
         I am...
@@ -46,7 +78,7 @@
         <a class="nav-link text-white" href="#">My socials</a>
       </li>
     </ul>
-  </div>
+  </div> -->
 
   <div id="home" class="row">
     <div class="col-6 mx-auto">
@@ -62,7 +94,7 @@
     </div>
   </div>
 
-  <div class="about" id="id">
+  <div class="about" id="about">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators" style="position: relative; top: 200px;">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -76,7 +108,7 @@
             <div class="simple-info">
               <h1>My Education</h1>
               <p>I've completed my,<br><br>
-                <b>UoU Bootcamp Full Stack Develompent</b>, during the period 07/13/2002 - 1/13/2021
+                <b>UoU Bootcamp Full Stack Develompent</b>, during the period 07/13/2020 - 1/13/2021
               </p>
             </div>
           </div>
@@ -88,7 +120,7 @@
           </div>
           <div class="carousel-item">
             <div class="simple-info">
-              <h1>As a Software Engineer</h1>
+              <h1>Somthn'</h1>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat sed assumenda, distinctio consequatur quos temporibus omnis consequuntur, facilis earum quis accusantium laudantium sapiente illo veniam quisquam officia animi eius sunt.</p>
             </div>
           </div>
@@ -112,10 +144,10 @@
 
 
 
-  <div id="projects" class="section pr-0 pl-0" style="background-color: #161a1d;">
+  <div class="section pr-0 pl-0" style="background-color: #161a1d;">
     <div class="row d-flex flex-wrap justify-content-center" style="padding-top: 80px; padding-right: 1px;">
       <div class="card m-4" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -124,7 +156,7 @@
       </div>
 
       <div class="card m-4" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -133,7 +165,7 @@
       </div>
 
       <div class="card m-4" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -142,7 +174,7 @@
       </div>
 
       <div class="card m-4" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -151,7 +183,7 @@
       </div>
 
       <div class="card m-4" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -160,7 +192,7 @@
       </div>
 
       <div class="card m-4" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -173,10 +205,6 @@
   <footer>
     <p class="text-center">THe end</p>
   </footer>
-
-
-
-
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">

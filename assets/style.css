@@ -3,6 +3,14 @@ body {
     overflow-x: hidden;
 }
 
+html, body, header,.view{
+    scroll-behavior: smooth;
+}
+
+li {
+    margin-right: 20px;
+}
+
 p {
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
