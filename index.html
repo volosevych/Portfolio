@@ -4,73 +4,197 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio: Anastasia Volosevych</title>
 
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/db310d7988.js" crossorigin="anonymous"></script>
   <!-- google fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@200&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet">
-
-
-
-
-  <!-- css file -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,300&family=Roboto+Mono:wght@200;400&display=swap"
+    rel="stylesheet">
+  <!-- my style.css file -->
   <link rel="stylesheet" href="assets/style.css">
+  <title>I am...</title>
 </head>
 
 <body>
-  <!-- navigation -->
-    <nav class="navbar navbar-expand-lg d-flex justify-content-between" style="background-color: #353535;">
-      <a class="navbar-brand ml-5 text-white" href="#" >AV</a>
-      <div class="buttons pr-5">
-        <div class="btn text-white"><a href="index.html" class="text-decoration-none text-white">About</a></div>
-        <div class="btn"><a href="#" class="text-decoration-none text-white">Portfolio</a></div>
+  <div class="sticky-top position-sticky d-flex justify-content-between" style="background-color: black;">
+    <div class="logo">
+      <div class="logo-text text-white">
+        I am...
       </div>
-    </nav>
-  
-    <!-- introdaction -->
-  <div class="jumbotron jumbotron-fluid" style="background-color: #d9d9d9;">
-    <div class="container">
-      <h1 class="text-center" style="color: #284b63;">Hey, I'm Anastasia ;)</h1>
-      <p class="lead text-center intro-text" style="color: #353535;">I'm a front end / back end Developer living in West
-        Jordan, UT.</p>
     </div>
-    <hr class="my-5 mb-0 mb-0" style="width: 50%; background-color: #284b63;">
-    <div class="container d-flex justify-content-center">
-    </div>
+    <ul class="nav justify-content-end pr-5 pt-3 pb-2">
+      <li class="nav-item">
+        <a class="nav-link active text-white" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">My socials</a>
+      </li>
+    </ul>
+  </div>
 
-    <!-- links to my social -->
-    <div class="social-icons d-flex justify-content-center" style="cursor: pointer;">
-      <a href="https://www.instagram.com/volosevychh/" target="_blank"><i class="fab fa-instagram" style="color: #fff; font-size: 30px; margin-right: 10px;"></i></a>
-      <i class="fab fa-twitter-square" style="color: #fff; font-size: 30px; margin-right: 10px;"></i>
-      <i class="fab fa-google" style="color: #fff; font-size: 28px;"></i>
+  <div id="home" class="row">
+    <div class="col-6 mx-auto">
+      <div class="jumbotron text-center bg-transparent">
+        <h1 class="display-4">I am Anastasia Volosevych</h1>
+        <p class="lead">FULL-STACK SOFTWARE DEVELOPER</p>
+        <hr class="my-4">
+        <p class="float-left mb-0">D.O.B <span style="font-weight: 200;">29.05.2002</span></p><br>
+        <p class="float-left mb-0">MOBILE <span style="font-weight: 200;">+1 (385)-630-1269</span></p><br>
+        <p class="float-left mb-0">ADDRESS <span style="font-weight: 200;">West Jordan, Utah</span></p><br>
+        <p class="float-left mb-0">E-MAIL <span style="font-weight: 200;">volosevichh@gmail.com</span></p>
+      </div>
     </div>
   </div>
-    
-  <div class="card mb-3 mx-auto" style="border: none; width: 580px; font-family: 'Peddana', serif; font-size: 20px; margin-left: 20px; ">
-    <div class="row no-gutters">
-      <div class="col-md-8">
+
+  <div class="about" id="id">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators" style="position: relative; top: 200px;">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+
+      <div class="col-md-6 mx-auto text-center">
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <div class="simple-info">
+              <h1>My Education</h1>
+              <p>I've completed my,<br><br>
+                <b>UoU Bootcamp Full Stack Develompent</b>, during the period 07/13/2002 - 1/13/2021
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="simple-info">
+              <h1>Free time or Hobbies</h1><br><br>
+              <p>Free time from coding I enjoy playing games, study other languages.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="simple-info">
+              <h1>As a Software Engineer</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat sed assumenda, distinctio consequatur quos temporibus omnis consequuntur, facilis earum quis accusantium laudantium sapiente illo veniam quisquam officia animi eius sunt.</p>
+            </div>
+          </div>
+      </div>
+      
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <div id="projects" class="section pr-0 pl-0" style="background-color: #161a1d;">
+    <div class="row d-flex flex-wrap justify-content-center" style="padding-top: 80px; padding-right: 1px;">
+      <div class="card m-4" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title text-center" style="font-weight: bold; font-size: 30px;">About me:</h5>
-          <p class="card-text"> My full name is Anastasia Volosevych. I study in the Professional Education/The University of Utah(FULL STACK FLEX PART-TIME). Now, I am looking for my first full-time job. I am always open to challenges and constructive feedback. I am open-minded and learn new things quickly. I want to become a team player and dedicate all my skills and talents to develop high-quality and unique products.</p>
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
         </div>
       </div>
 
-      <div class="col-md-4">
-        <img src="assets/img/1X2lL2DBV4M 1.png" alt="...">
+      <div class="card m-4" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </div>
+
+      <div class="card m-4" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </div>
+
+      <div class="card m-4" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </div>
+
+      <div class="card m-4" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </div>
+
+      <div class="card m-4" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
       </div>
     </div>
   </div>
-     
-   
+
+  <footer>
+    <p class="text-center">THe end</p>
+  </footer>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
 
   <script src="assets/script.js"></script>
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/db310d7988.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
