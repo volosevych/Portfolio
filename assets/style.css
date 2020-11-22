@@ -54,6 +54,7 @@ span {
 
 /* project section */
 .project-btn {
+    font-weight: bold;
     text-transform: uppercase;
     padding: 10px;
 
@@ -65,7 +66,7 @@ span {
 }
 
 .project-btn:hover {
-    color: #fff;
+    color: rgb(0, 0, 0);
     background-color: #fb8500;
     border: 1px solid #fb8500;
 }
